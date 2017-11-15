@@ -77,10 +77,9 @@ BRUSHED.slider = function(){
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-											{image : '/img/slider-images/image01.jpg', title : '<div class="slide-content">Brushed</div>', thumb : '', url : ''},
-											{image : '/img/slider-images/image02.jpg', title : '<div class="slide-content">Brushed</div>', thumb : '', url : ''},
-											{image : '/img/slider-images/image03.jpg', title : '<div class="slide-content">Brushed</div>', thumb : '', url : ''},
-											{image : '/img/slider-images/image04.jpg', title : '<div class="slide-content">Brushed</div>', thumb : '', url : ''}  
+											{image : 'Insideofwatch horizontalcard size.jpg', title : '<div class="slide-content">Developer</div>', thumb : '', url : ''},
+											{image : 'black_and_white_pocket_watch_by_clawzskunk.jpg', title : '<div class="slide-content">Designer</div>', thumb : '', url : ''},
+											{image : 'pocket_watch_by_adszew.jpg', title : '<div class="slide-content">Dreamer</div>', thumb : '', url : ''},
 									],
 									
 		// Theme Options			   
