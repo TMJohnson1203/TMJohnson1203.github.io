@@ -19,7 +19,7 @@ License : MIT License / GPL License
 #slidecaption { overflow:hidden; float:left; color:#FFF; font:400 14px "Helvetica Neue", Helvetica, Arial, sans-serif; text-shadow:#000 1px 1px 2px; margin:0 20px 0 0; line-height:42px; }
 
 #navigation { float:right; margin:0px 20px 0 0; }
-#play-button{ float:left; margin-top:1px;border-right:1px solid #333; background:url('../img/supersized/bg-hover.png') repeat-x 0 44px; }
+#play-button{ float:left; margin-top:1px;border-right:1px solid #642810; background:url('../img/supersized/bg-hover.png') repeat-x 0 44px; }
 #play-button:hover{ background-position:0 1px; cursor:pointer; }
 
 #prevslide, #nextslide{ position:absolute; height:43px; width:43px; top:50%; margin-top:-21px; opacity:0.6; }
@@ -34,7 +34,7 @@ ul#slide-list li.current-slide a, ul#slide-list li.current-slide a:hover{ backgr
 ul#slide-list li a{ display:block; width:12px; height:12px; background:url('../img/supersized/nav-dot.png') no-repeat 0 -24px; }
 ul#slide-list li a:hover{ background-position:0 -12px; cursor:pointer; }
 
-#tray-button{ float:right; margin-top:1px; border-left:1px solid #333; background:url('../img/supersized/bg-hover.png') repeat-x 0 44px; }
+#tray-button{ float:right; margin-top:1px; border-left:1px solid #642810; background:url('../img/supersized/bg-hover.png') repeat-x 0 44px; }
 #tray-button:hover{ background-position:0 1px; cursor:pointer; }
 
 

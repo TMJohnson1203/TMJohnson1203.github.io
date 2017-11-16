@@ -306,11 +306,13 @@
 	}
 	
 	#about .profile {
-		margin-bottom: 30px;	
+		margin-bottom: 30px;
+        background-color: #552D21;	
 	}
 	
 	#about .profile:last-child {
 		margin-bottom: 0;	
+        background-color: #995B33;	
 	}
 	
 	#response {

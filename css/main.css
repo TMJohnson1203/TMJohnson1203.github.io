@@ -113,8 +113,7 @@ hr {
 
 input, button, select, textarea {
 	font-weight: 300;
-	font-family: 'Bitter', serif;
-    font-family: 'Libre Baskerville', serif;
+	font-family: 'Titillium Web', sans-serif;
 	outline: 0;
 }
 
@@ -629,19 +628,26 @@ nav#menu #menu-nav li a:hover {
 ================================================== */
 
 .page {
-	background: #642810;
-	padding: 100px 0;
+	background: #381B1A;
+	padding: 0px 0px 0px 0px;
 	position: relative;
 	z-index: 99;
 }
 
 .page-alternate {
-	background: #381B1A;
-	padding: 100px 0;
+	background: #552D21;
+	padding: 25px 0px 25px 0px;
 	position: relative;
 	z-index: 99;
 }
 
+
+.bio{
+    background: #995B33;
+	padding: 25px 0px 25px 0px;
+	position: relative;
+	z-index: 99;
+}
 .title-page {
 	text-align: center;
 	margin-bottom: 100px;	
@@ -661,6 +667,14 @@ nav#menu #menu-nav li a:hover {
 /* ==================================================
    Section Portfolio
 ================================================== */
+
+#portfolio{
+    background: #552D21; 
+	padding: 25px 0px 25px 0px;
+    margin: 0px -30px 0px -30px;
+	position: relative;
+	z-index: 99;
+}
 
 .type-work {
 	color: #FBEFC2;
@@ -895,6 +909,12 @@ nav#menu #menu-nav li a:hover {
    Contact Section
 ================================================== */
 
+#contactrow{
+    background: #995B33;
+	padding: 25px 0px 25px 0px;
+	position: relative;
+	z-index: 99;
+}
 .contact-details h3 {
 	color: #FBEFC2;
     font-size: 24px;
@@ -916,6 +936,14 @@ nav#menu #menu-nav li a:hover {
 	padding: 0;	
 }
 
+#contactform{
+    background: #381B1A;
+	padding: 25px 0px 25px 0px;
+    margin: 0px -30px 0px -30px;
+	position: relative;
+	z-index: 99;
+}
+
 #contact-form {
 	margin-bottom: 0;	
 }
@@ -930,13 +958,12 @@ nav#menu #menu-nav li a:hover {
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
     border-radius: 0;
-	
     -webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
-	
-	background: #995B33;
-    color: #FBEFC2;
+	background: #fbefc2;
+    font-weight: bold;
+    color: #2F1110;
     font-size: 16px;
     height: auto;
     padding: 15px;
@@ -961,12 +988,12 @@ nav#menu #menu-nav li a:hover {
 }
 
 #contact-form .submit {
-    background: #995B33;
-    color: #381B1A;
+    background: #fbefc2;
+    color: #2F1110;
+    font-weight: bold;
     cursor: pointer;
     display: inline-block;
     font-size: 18px;
-    font-weight: 500;
     padding: 16px 40px;
     text-align: center;
     vertical-align: middle;
@@ -1131,7 +1158,7 @@ footer {
 	position: relative;
 	width: 100%;
 	height: auto;
-	background: #381B1A;
+	background: #552D21;
 	text-align: center;
 	z-index: 99;
 }
@@ -1140,7 +1167,7 @@ footer .credits {
 	color: #FBEFC2;
 	font-size: 13px;
 	margin-bottom: 0;
-	padding: 20px 0;
+	padding: 0px 0px 0px 0px;
 	text-transform: uppercase;	
 }
 
