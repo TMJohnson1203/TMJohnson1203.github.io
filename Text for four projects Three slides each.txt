@@ -1,0 +1,72 @@
+
+Fortune Teller
+
+CHALLENGE:
+Create a console application that utilizes various types of user input to create a personalized 'FORTUNE.'
+
+LESSONS LEARNED
+Comparison of user input to C# variables including age, birth month, number of siblings and favorite color.
+Use of conditionals, “if else” statements, “do while” loops and “switch case.”
+
+ONGOING CHALLENGES
+Create MVC application utilizing C# in original console application.
+Use “code first” database created by user input to generate a unique ‘FORTUNE.’
+Add styling, images and personality to MVC app.
+
+
+HTML/CSS
+
+CHALLENGE:
+Create HTML website (no functionality) based on a visual mockup provided by a hypothetical client.  
+Explore styling using CSS and ‘bootstrap.’
+
+LESSONS LEARNED
+Implementation of ‘bootstrap’ elements such as navigation bar, glyphicons and carousel.
+Use of CSS to visually recreate mockup supplied by client.
+Utilization and formatting of pictures provided by client,
+
+ONGOING CHALLENGES
+Revise HTML and CSS to create functionality of site including navigation within index page.
+Explore JavaScript and jQuery, such as parallax, as a means of improving functionality and aesthetic appeal.
+
+
+
+
+
+
+
+
+Review Site MVC
+
+CHALLENGE:
+Create a functional MVC application complete with styling and personality that allows users to create detailed reviews of the places they have traveled to,
+
+LESSONS LEARNED
+Use of  front-end techniques such as ‘bootstrap’ and CSS.
+Generation and modification of models and controllers.
+
+ONGOING CHALLENGES
+Further knowledge and understanding of CSS techniques for individualized styling.
+Continued application of knowledge in order to modify ‘bootstrap’ style in order to create application with personality. 
+
+
+SQL/MVC
+
+
+CHALLENGE:
+Create a functional and aesthetically pleasing MVC application using database first models allowing user to create an inventory of their wardrobe separated by category displaying user provided details of individual articles of clothing including user’s pictures
+
+LESSONS LEARNED
+Implementation of visual elements such as logo, hex colors, photo editing in addition to CSS to create visually appealing application. 
+Continued use  of  front-end techniques such as ‘bootstrap’ and CSS.
+Generation and modification of models and controllers complete with original styling in index, create and details view
+
+
+ONGOING CHALLENGES
+Further knowledge and understanding of CSS techniques for individualized styling.
+Explore JavaScript and jQuery, such as parallax, as a means of improving functionality and aesthetic appeal.
+
+
+
+
+

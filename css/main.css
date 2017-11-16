@@ -775,9 +775,11 @@ nav#menu #menu-nav li a:hover {
 
 .item-thumbs .hover-wrap .overlay-img-thumb {
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin: -16px 0 0 -16px;
+	/*top: 50%;
+	left: 50%;*/
+	margin: 0px 10px 10px 0px;
+    height:189px;
+    width:260px;
 	color: #FBEFC2;
 	font-size: 32px;
 	line-height: 1em;
