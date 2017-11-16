@@ -9,8 +9,8 @@
   	-webkit-border-radius: 0;
        -moz-border-radius: 0;
             border-radius: 0;
-  	background-color: #3C3F45;
-  	color: #23262C;
+  	background-color: #995B33;
+  	color: #381B1A;
   	vertical-align: middle;
   	text-align: center;
   	text-transform: uppercase;
@@ -32,8 +32,8 @@
 .button:hover,
 .button:active,
 .button:focus {
-	background-color: #DE5E60;
-	color:#FFFFFF;
+	background-color: #FCD7AC;
+	color:#FBEFC2;
 }
 
 /* --- Button Sizes --- */
@@ -87,8 +87,8 @@
 	position: relative;
   	display: block;
   	padding: 15px;
-	background:#3C3F45;
-	color: #23262C;
+	background:#995B33;
+	color: #381B1A;
 	font-size: 18px;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -106,17 +106,17 @@
 
 .accordion-heading:hover .accordion-toggle,
 .accordion-heading:hover .accordion-toggle.inactive {
-	background:#DE5E60;
-	color:#FFFFFF;
+	background:#FCD7AC;
+	color:#FBEFC2;
 }
 
 .accordion-heading .accordion-toggle.active {
-	background:#DE5E60;
-	color:#FFFFFF;
+	background:#FCD7AC;
+	color:#FBEFC2;
 }
 
 .accordion-heading .accordion-toggle.inactive {
-	background:#3C3F45;
+	background:#995B33;
 }
 
 .accordion-heading.accordionize .accordion-toggle span,
@@ -125,7 +125,7 @@
     top: 50%;
     right: 20px;
     margin: -8px 0 0 0;
-    color: #23262C;
+    color: #381B1A;
     font-size: 18px;
 	
 	-webkit-transition: all 0.1s linear 0s;
@@ -136,12 +136,12 @@
 }
 
 .accordion-heading:hover .accordion-toggle span {
-	color: #FFFFFF;
+	color: #FBEFC2;
 }
 
 .accordion-heading .accordion-toggle.active span,
 .accordion-heading:hover .accordion-toggle.inactive span {
-	color: #FFFFFF;	
+	color: #FBEFC2;	
 }
 
 .accordion-heading.accordionize .accordion-toggle.active span,
@@ -169,7 +169,7 @@
 }
 
 .accordion-inner {
-	background: #26292E;
+	background: #381B1A;
   	padding: 16px 20px;
 	border: none;
 }
@@ -191,7 +191,7 @@
 
 .alert,
 .alert h4 {
-	color: #FFFFFF;
+	color: #FBEFC2;
 }
 
 .alert h4 {
@@ -203,7 +203,7 @@
   	top: 2px;
   	right: -22px;
   	line-height: 20px;
-	color: #FFFFFF;	
+	color: #FBEFC2;	
 	text-shadow: none;
 	
 	-webkit-transition: opacity 0.1s linear 0s;
@@ -218,7 +218,7 @@
 }
 
 .alert-standard {
-  	background-color: #3C3F45;
+  	background-color: #995B33;
 }
 
 .alert-success {
@@ -261,7 +261,7 @@
 
 .nav > li > a {
   	display: block;
-  	color: #23262C;
+  	color: #381B1A;
   	font-size: 18px;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -273,8 +273,8 @@
 
 .nav > li > a:hover,
 .nav > li > a:focus {
-  	background-color: #DE5E60;
-	color: #FFFFFF;
+  	background-color: #FCD7AC;
+	color: #FBEFC2;
   	text-decoration: none;
   	display: block;
 }
@@ -312,7 +312,7 @@
 }
 
 .nav-tabs > li > a {
-	background: #3C3F45;
+	background: #995B33;
 	padding:15px;
   	line-height: 20px;
 }
@@ -321,8 +321,8 @@
 .nav-tabs > .active > a:hover,
 .nav-tabs > .active > a:focus {
 	border: none;
-  	background-color: #DE5E60;
-	color: #FFFFFF;
+  	background-color: #FCD7AC;
+	color: #FBEFC2;
   	cursor: default;
 }
 
@@ -344,7 +344,7 @@
 .tab-content {
   	overflow: auto;
 	padding: 20px;
-	background: #26292E;
+	background: #381B1A;
 }
 
 .tab-content > .tab-pane {
@@ -362,7 +362,7 @@
 
 blockquote {
   	padding: 15px 20px;
-  	border-left: 2px solid #DE5E60;
+  	border-left: 2px solid #FCD7AC;
 }
 
 blockquote p {
@@ -427,8 +427,8 @@ blockquote small:before {
   	-webkit-border-radius: 0;
        -moz-border-radius: 0;
           	border-radius: 0;
-  	background-color: #FFFFFF;
-  	color: #26292E;
+  	background-color: #FBEFC2;
+  	color: #381B1A;
   	text-align: center;
   	text-decoration: none;
 }
@@ -446,7 +446,7 @@ blockquote small:before {
   	left: 50%;
   	margin-left: -15px;
   	border-width: 10px 10px 0;
-  	border-top-color: #FFFFFF;
+  	border-top-color: #FBEFC2;
 }
 
 .tooltip.right .tooltip-arrow {
@@ -454,7 +454,7 @@ blockquote small:before {
   	left: 0;
   	margin-top: -15px;
   	border-width: 10px 10px 10px 0;
-  	border-right-color: #FFFFFF;
+  	border-right-color: #FBEFC2;
 }
 
 .tooltip.left .tooltip-arrow {
@@ -462,7 +462,7 @@ blockquote small:before {
   	right: 0;
   	margin-top: -15px;
   	border-width: 10px 0 10px 10px;
-  	border-left-color: #FFFFFF;
+  	border-left-color: #FBEFC2;
 }
 
 .tooltip.bottom .tooltip-arrow {
@@ -470,7 +470,7 @@ blockquote small:before {
   	left: 50%;
   	margin-left: -15px;
   	border-width: 0 10px 10px;
-  	border-bottom-color: #FFFFFF;
+  	border-bottom-color: #FBEFC2;
 }
 
 /* ==================================================
@@ -478,7 +478,7 @@ blockquote small:before {
 ================================================== */
 
 .info-block {
-    border-left: 2px solid #DE5E60;
+    border-left: 2px solid #FCD7AC;
     overflow: hidden;
     padding: 20px;
     position: relative;
@@ -552,7 +552,7 @@ blockquote small:before {
 	width: 70px;
 	height: 70px;
 
-	background: #26292E;
+	background: #381B1A;
 	
 	-webkit-transition: all 400ms ease-out 0s;	
 	   -moz-transition: all 400ms ease-out 0s;
@@ -590,7 +590,7 @@ blockquote small:before {
 
 .icons-example ul li:hover a,
 .icons-example ul li.active a {
-	background-color: #DE5E60;	
+	background-color: #FCD7AC;	
 	
 	-webkit-transform: rotateY(180deg);
 	   -moz-transform: rotateY(180deg);
@@ -601,7 +601,7 @@ blockquote small:before {
 
 .icons-example ul li:hover a span,
 .icons-example ul li.active a span {
-	color: #FFFFFF;
+	color: #FBEFC2;
 	opacity: 1;
 	filter: alpha(opacity=100);
 	

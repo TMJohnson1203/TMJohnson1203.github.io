@@ -24,8 +24,8 @@ html, hmtl a{
 }
 
 body{
-	background:#2F3238;
-	color:#7F8289;
+	background:#995B33;
+	color:#C7A078;
 	font-weight:300;
 	font-size:16px;
 	font-family: 'Titillium Web', sans-serif;
@@ -34,7 +34,7 @@ body{
 
 
 a{
-	color:#DE5E60;
+	color:#FCD7AC;
 	text-decoration: none;
 	cursor: pointer;
 	
@@ -48,7 +48,7 @@ a:hover,
 a:active,
 a:focus{
 	outline: 0;
-	color:#FFFFFF;
+	color:#FBEFC2;
 	text-decoration:none;
 }
 
@@ -74,7 +74,7 @@ p {
 
 hr {
 	border-style: dashed;
-	border-color: #3C3F45;
+	border-color: #995B33;
 	border-bottom: none;
 	border-left: none;
 	border-right: none;
@@ -104,7 +104,7 @@ hr {
 }
 
 .color-text {
-    color: #DE5E60;
+    color: #FCD7AC;
 }
 
 .through{
@@ -113,7 +113,8 @@ hr {
 
 input, button, select, textarea {
 	font-weight: 300;
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Bitter', serif;
+    font-family: 'Libre Baskerville', serif;
 	outline: 0;
 }
 
@@ -125,17 +126,17 @@ input[type="text"]:focus {
 
 input:-moz-placeholder,
 textarea:-moz-placeholder {
-  color: #7F8289;
+  color: #C7A078;
 }
 
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-  color: #7F8289;
+  color: #C7A078;
 }
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-  color: #7F8289;
+  color: #C7A078;
 }
 
 /* ==================================================
@@ -203,7 +204,7 @@ h4,
 h5,
 h6{
 	margin:0 0 20px 0;
-	color:#FFFFFF;
+	color:#FBEFC2;
 	font-weight:300;
 	font-family: 'Titillium Web', sans-serif;
 	line-height:1.5em;
@@ -234,7 +235,7 @@ h6{
 }
 
 h3.spec {
-	color: #FFFFFF;
+	color: #FBEFC2;
     font-size: 24px;
     font-weight: 300;
     line-height: 1em;
@@ -301,7 +302,7 @@ h3.spec {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background: #26292E;
+	background: #381B1A;
 	opacity: 0.7;
 	filter: alpha(opacity=70);
 	z-index: 0;
@@ -328,7 +329,7 @@ h3.spec {
 
 #home-slider .slide-content {
 	font-size: 60px;
-	color: #FFFFFF;
+	color: #FBEFC2;
 	letter-spacing: -3px;
 	text-transform: uppercase;	
 }
@@ -336,7 +337,7 @@ h3.spec {
 #home-slider .control-nav {
 	position: absolute;
 	width: 100%;
-	background: #2F3238;
+	background: #995B33;
 	height: 50px;
 	bottom: 0;
 	z-index: 2;
@@ -345,7 +346,7 @@ h3.spec {
 #home-slider #nextslide,
 #home-slider #prevslide {
 	background-image: none;
-	background-color: #26292E;
+	background-color: #381B1A;
 	display: inline-block;
 	margin: 0;
 	position: relative;
@@ -373,13 +374,13 @@ h3.spec {
 
 #home-slider #nextslide:hover,
 #home-slider #prevslide:hover {
-	background-color:#DE5E60;
+	background-color:#FCD7AC;
 }
 
 #home-slider #nextslide i,
 #home-slider #prevslide i {
 	font-size: 16px;
-	color: #FFFFFF;
+	color: #FBEFC2;
 	position: absolute;
 	left: 50%;
 	top: 50%;
@@ -410,7 +411,7 @@ h3.spec {
 }
 
 #home-slider ul#slide-list li a {
-	background-color: #6E7074;
+	background-color: #5C0D0F;
 	background-image: none;
 	width: 12px;
 	height: 12px;
@@ -426,16 +427,16 @@ h3.spec {
 }
 
 #home-slider ul#slide-list li a:hover {
-	background-color: #FFFFFF;	
+	background-color: #FBEFC2;	
 }
 
 #home-slider ul#slide-list li.current-slide a,
 #home-slider ul#slide-list li.current-slide a:hover {
-	background-color:#DE5E60;
+	background-color:#FCD7AC;
 }
 
 #home-slider #nextsection {
-	background-color: #26292E;
+	background-color: #381B1A;
 	margin: 0;
 	position: relative;
 	float:right;
@@ -449,12 +450,12 @@ h3.spec {
 }
 
 #home-slider #nextsection:hover {
-	background-color:#DE5E60;
+	background-color:#FCD7AC;
 }
 
 #home-slider #nextsection i {
 	font-size: 16px;
-	color: #FFFFFF;
+	color: #FBEFC2;
 	position: absolute;
 	left: 50%;
 	top: 50%;
@@ -480,7 +481,7 @@ header .sticky-nav {
 	position: relative;
 	width: 100%;
 	height: 60px;
-	background: #26292E;
+	background: #381B1A;
 	z-index: 1001;
 	
 	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
@@ -496,7 +497,7 @@ header .sticky-nav.stuck {
 }
 
 header #logo {
-	color: #FFFFFF;
+	color: #FBEFC2;
 	float: left;
 	padding: 15px 0;
 	margin-left: 20px;
@@ -543,7 +544,7 @@ nav#menu #menu-nav li:first-child {
 }
 
 nav#menu #menu-nav li a {
-	color: #FFFFFF;
+	color: #FBEFC2;
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 60px;
@@ -553,7 +554,7 @@ nav#menu #menu-nav li a {
 
 nav#menu #menu-nav li.current a,
 nav#menu #menu-nav li a:hover {
-	color: #DE5E60;
+	color: #FCD7AC;
 }
 
 
@@ -603,8 +604,8 @@ nav#menu #menu-nav li a:hover {
 	display: none;
 	text-align: center;
 	width: 100%;
-	background: #26292E;	
-	border-bottom: 1px solid #2F3238;
+	background: #381B1A;	
+	border-bottom: 1px solid #642810;
 	position: relative;
 	float: left;
 	z-index: 9999;
@@ -612,7 +613,7 @@ nav#menu #menu-nav li a:hover {
 
 #navigation-mobile li {
 	list-style: none;
-	border-top: 1px solid #2F3238;
+	border-top: 1px solid #642810;
 }
 
 #navigation-mobile li a{
@@ -628,14 +629,14 @@ nav#menu #menu-nav li a:hover {
 ================================================== */
 
 .page {
-	background: #2F3238;
+	background: #642810;
 	padding: 100px 0;
 	position: relative;
 	z-index: 99;
 }
 
 .page-alternate {
-	background: #26292E;
+	background: #381B1A;
 	padding: 100px 0;
 	position: relative;
 	z-index: 99;
@@ -662,7 +663,7 @@ nav#menu #menu-nav li a:hover {
 ================================================== */
 
 .type-work {
-	color: #FFFFFF;
+	color: #FBEFC2;
 	font-size: 24px;
 	font-weight: 300;
 	margin-bottom: 30px;
@@ -682,17 +683,17 @@ nav#menu #menu-nav li a:hover {
 }
 
 .work-nav #filters li a {
-	color: #7F8289;
+	color: #C7A078;
 	font-size: 16px;
 	display: block;	
 }
 
 .work-nav #filters li a:hover {
-	color: #FFFFFF;
+	color: #FBEFC2;
 }
 
 .work-nav #filters li a.selected {
-	color: #DE5E60;
+	color: #FCD7AC;
 }
 
 #thumbs {
@@ -752,7 +753,7 @@ nav#menu #menu-nav li a:hover {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background: #DE5E60;
+	background: #FCD7AC;
 	
 	opacity: 0.80;
 	filter: alpha(opacity=80);
@@ -763,7 +764,7 @@ nav#menu #menu-nav li a:hover {
 	top: 50%;
 	left: 50%;
 	margin: -16px 0 0 -16px;
-	color: #FFFFFF;
+	color: #FBEFC2;
 	font-size: 32px;
 	line-height: 1em;
 	
@@ -832,7 +833,7 @@ nav#menu #menu-nav li a:hover {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background: #DE5E60;
+	background: #FCD7AC;
 	
 	opacity: 0.80;
 	filter: alpha(opacity=80);
@@ -844,7 +845,7 @@ nav#menu #menu-nav li a:hover {
 	height: 32px;
 	top: 50%;
 	margin: -16px 0 0 0;
-	color: #FFFFFF;
+	color: #FBEFC2;
 	font-size: 20px;
 	font-weight: 300;
 	line-height: 32px;
@@ -870,7 +871,7 @@ nav#menu #menu-nav li a:hover {
 }
 
 .social-icons li a{
-	color: #FFFFFF;
+	color: #FBEFC2;
 	font-size: 16px;
 	line-height: 1em;
 	width: 16px;
@@ -895,7 +896,7 @@ nav#menu #menu-nav li a:hover {
 ================================================== */
 
 .contact-details h3 {
-	color: #FFFFFF;
+	color: #FBEFC2;
     font-size: 24px;
     font-weight: 300;
     margin-bottom: 30px;
@@ -934,8 +935,8 @@ nav#menu #menu-nav li a:hover {
 	-moz-box-shadow: none;
 	box-shadow: none;
 	
-	background: #26292E;
-    color: #FFFFFF;
+	background: #995B33;
+    color: #FBEFC2;
     font-size: 16px;
     height: auto;
     padding: 15px;
@@ -960,8 +961,8 @@ nav#menu #menu-nav li a:hover {
 }
 
 #contact-form .submit {
-    background: #3C3F45;
-    color: #23262C;
+    background: #995B33;
+    color: #381B1A;
     cursor: pointer;
     display: inline-block;
     font-size: 18px;
@@ -979,13 +980,13 @@ nav#menu #menu-nav li a:hover {
 }
 
 #contact-form .submit:hover {
-    background: #DE5E60;
-    color: #FFFFFF;
+    background: #FCD7AC;
+    color: #FBEFC2;
 }
 
 #response {
 	margin-top: 20px;
-	color: #FFFFFF;
+	color: #FBEFC2;
 }
 
 
@@ -1022,14 +1023,14 @@ nav#menu #menu-nav li a:hover {
 }
 
 #ticker .tweet_list .tweet_time a {
-	color: #7f8289;
+	color: #C7A078;
 	font-size: 14px;
 	font-style: italic;
 	margin-left: 10px;	
 }
 
 #ticker .tweet_list .tweet_time a:hover {
-	color: #FFFFFF;	
+	color: #FBEFC2;	
 }
 
 
@@ -1062,7 +1063,7 @@ nav#menu #menu-nav li a:hover {
 	width: 70px;
 	height: 70px;
 
-	background: #26292E;
+	background: #381B1A;
 	
 	-webkit-transition: all 400ms ease-out 0s;	
 	   -moz-transition: all 400ms ease-out 0s;
@@ -1100,7 +1101,7 @@ nav#menu #menu-nav li a:hover {
 
 #social ul li:hover a,
 #social ul li.active a {
-	background-color: #DE5E60;	
+	background-color: #FCD7AC;	
 	
 	-webkit-transform: rotateY(0deg);
 	   -moz-transform: rotateY(0deg);
@@ -1111,7 +1112,7 @@ nav#menu #menu-nav li a:hover {
 
 #social ul li:hover a span,
 #social ul li.active a span {
-	color: #FFFFFF;
+	color: #FBEFC2;
 	opacity: 1;
 	filter: alpha(opacity=100);
 	
@@ -1130,13 +1131,13 @@ footer {
 	position: relative;
 	width: 100%;
 	height: auto;
-	background: #26292E;
+	background: #381B1A;
 	text-align: center;
 	z-index: 99;
 }
 
 footer .credits {
-	color: #FFFFFF;
+	color: #FBEFC2;
 	font-size: 13px;
 	margin-bottom: 0;
 	padding: 20px 0;
@@ -1149,7 +1150,7 @@ footer .credits {
 
 #back-to-top {
 	display: none;
-	background-color: #3C3F45;
+	background-color: #995B33;
 	margin: 0;
 	position: fixed;
 	bottom: 0;
@@ -1165,12 +1166,12 @@ footer .credits {
 }
 
 #back-to-top:hover {
-	background-color:#DE5E60;
+	background-color:#FCD7AC;
 }
 
 #back-to-top i {
 	font-size: 16px;
-	color: #FFFFFF;
+	color: #FBEFC2;
 	position: absolute;
 	left: 50%;
 	top: 50%;
@@ -1189,7 +1190,7 @@ footer .credits {
 
 #jpreOverlay,
 #jSplash {
-	background-color: #2F3238;
+	background-color: #642810;
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -1224,7 +1225,7 @@ footer .credits {
 	z-index: 800;
 	
 	font-size: 24px;
-	color: #FFFFFF;	
+	color: #FBEFC2;	
 
 	-webkit-animation: circle 1s infinite forwards;
 	   -moz-animation: circle 1s infinite forwards;
@@ -1241,7 +1242,7 @@ footer .credits {
 	margin: -50px 0 0 -50px;
 	width: 100px;
 	height: 100px;
-	background: #DE5E60;
+	background: #FCD7AC;
 	-webkit-border-radius: 999px;
 	-moz-border-radius: 999px;
 	border-radius: 999px;
