@@ -1,522 +1,235 @@
-﻿<!DOCTYPE html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if (IE 9)]><html class="no-js ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!-->
-<html lang="en-US">
-<!--<![endif]-->
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <!-- Meta Tags -->
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Teresa M Johnson Portfolio</title>
-    <meta name="description" content="Insert Your Site Description" />
-    <!-- Mobile Specifics -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="HandheldFriendly" content="true" />
-    <meta name="MobileOptimized" content="320" />
-    <!-- Mobile Internet Explorer ClearType Technology -->
-    <!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Simple Blue, Professional free website template</title>
+    <meta name="keywords" content="free css templates, website templates, CSS, HTML" />
+    <meta name="description" content="Simple Blue - Professional free XHTML/CSS template provided by templatemo.com" />
+    <link href="templatemo_style.css" rel="stylesheet" type="text/css" />
     <!-- Main Style -->
-    <link href="css/main.css" rel="stylesheet" />
-    <!-- Supersized -->
-    <link href="css/supersized.css" rel="stylesheet" />
-    <link href="css/supersized.shutter.css" rel="stylesheet" />
+    <link href="CapstoneCSS.css" rel="stylesheet" />
+    <script language="javascript" type="text/javascript">
 
 
-
-    <!-- FancyBox -->
-    <link href="css/fancybox/jquery.fancybox.css" rel="stylesheet" />
-    <!-- Font Icons -->
-    <link href="css/fonts.css" rel="stylesheet" />
-    <!-- Shortcodes -->
-    <link href="css/shortcodes.css" rel="stylesheet" />
-    <!-- Responsive -->
-    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" />
-    <link href="css/responsive.css" rel="stylesheet" />
-    <!-- Supersized -->
-    <link href="css/supersized.css" rel="stylesheet" />
-    <link href="css/supersized.shutter.css" rel="stylesheet" />
-
-
-
-    <!-- Google Font -->
-    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
-    <!-- Fav Icon -->
-    <link rel="shortcut icon" href="#">
-    <link rel="apple-touch-icon" href="#">
-    <link rel="apple-touch-icon" sizes="114x114" href="#">
-    <link rel="apple-touch-icon" sizes="72x72" href="#">
-    <link rel="apple-touch-icon" sizes="144x144" href="#">
-
-
-
-    <!-- Modernizr -->
-    <script src="js/modernizr.js"></script>
-
-    <!-- Analytics  DO NOT NEED AT THIS TIME-->
-    <!--<script type="text/javascript">
-
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'Insert Your Code']);
-        _gaq.push(['_trackPageview']);
-
-        (function () {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-
-    </script>-->
-    <!-- End Analytics -->
+        function clearText(field) {
+            if (field.defaultValue == field.value) field.value = '';
+            else if (field.value == '') field.value = field.defaultValue;
+        }
+    </script>
 </head>
-
 <body>
-    <!-- This section is for Splash Screen -->
-    <div class="ole">
-        <section id="jSplash">
-            <div id="circle"></div>
-        </section>
-    </div>
-    <!-- End of Splash Screen -->
-    <!-- Homepage Slider -->
-    <div id="home-slider">
-        <div class="overlay"></div>
-        <div class="slider-text">
-            <div id="slidecaption"></div>
-        </div>
+    <div id="templatemo_header_wrapper">
+        <!--  Free Web Templates by TemplateMo.com  -->
+        <div id="templatemo_header">
 
-        <div class="control-nav">
-            <a id="prevslide" class="load-item" style="display: inline-block; opacity: 1;"><i class="font-icon-arrow-simple-left"></i></a>
-            <a id="nextslide" class="load-item" style="display: inline-block; opacity: 1;"><i class="font-icon-arrow-simple-right"></i></a>
-            <ul id="slide-list" style="margin-left: -42px;"><li class="slide-link-0 current-slide"><a></a></li><li class="slide-link-1"><a></a><!--</li><li class="slide-link-2"><a></a></li><li class="slide-link-3"><a>--><!--</a>--></li></ul>
+            <div id="site_logo"><!--  --></div>
 
-            <a id="nextsection" href="#shortcodes"><i class="font-icon-arrow-simple-down"></i></a>
-        </div>
-    </div>
-    <!-- End Homepage Slider -->
-    <!-- Header -->
-    <header>
-        <div class="sticky-nav">
-            <a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
-
-            <nav id="menu">
-                <ul id="menu-nav">
-                    <li class="current"><a href="#home-slider">Home</a></li>
-                    <li><a href="#work">Our Work</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#contact">Contact</a></li>
+            <div id="templatemo_menu">
+                <div id="templatemo_menu_left"></div>
+                <ul>
+                    <li><a href="#" class="current">Home</a></li>
+                    <li><a href="http://www.templatemo.com/page/1">Your Journey</a></li>
+                    <li><a href="http://www.templatemo.com/page/2">Supports</a></li>
+                    <li><a href="http://www.templatemo.com/page/3">Healing Habits</a></li>
+                    <li><a href="#" class="last">Contact</a></li>
                 </ul>
-            </nav>
+            </div> <!-- end of menu -->
 
-        </div>
-    </header>
+        </div>  <!-- end of header -->
+    </div> <!-- end of header wrapper -->
 
-    <!-- End Header -->
+    <div id="templatemo_banner_wrapper">
+        <div id="templatemo_banner">
+            <div id="templatemo_banner_image">
 
-
-    <div id="about" class="page-alternate">
-        <div class="container">
-            <!-- Title Page -->
-            <div class="row">
-                <div class="span12">
-                    <div class="title-page">
-                        <h2 class="title">About</h2>
-                        <h3 class="title-description">Learn About our Team &amp; Culture.</h3>
-                    </div>
+                <div id="templatemo_banner_image_wrapper">
+                    <img src="sized DaysSober.jpg" />
                 </div>
             </div>
-        </div>
-    </div>
 
-    <!-- End Title Page -->
-    <!-- People -->
+            <div id="templatemo_banner_content">
+                <div class="header_01">Keep Calm in Cleveland</div>
 
-    <div id="TMJ" class="bio">
-        <div class="container">
-            <div class="row" style="margin-left: 370px;">
+                <p><i>Your one-stop APP to support your sobriety.</i></p>
+                <p>An Addiction Accountability Application</p>
 
-                <!-- Start Profile -->
-                <div class="span4 profile">
-                    <div class="image-wrap">
-                        <div class="hover-wrap">
-                            <span class="overlay-img"><img src="img/sepia black-white-photos-tic-tac.jpg" /></span>
-                            <span class="overlay-text-thumb">Teresa M Johnson<!--, MA, BCC--></span>
+                <div class="button_01"><a href="#">Read more</a></div>
+            </div>
+
+            <div class="cleaner"></div>
+        </div> <!-- end of banner -->
+    </div> <!-- end of banner wrapper -->
+
+    <div id="templatemo_content_wrapper">
+        <div id="templatemo_content">
+
+            <div id="column_w530">
+
+                <div class="header_02"><b>WELCOME to  <i>The MOMENT...</i></b></div>
+
+
+                <p class="em_text">
+
+                    You've come a long way and your sobriety is one of the most important things in your life.
+                    We all know that life gets hectic. When chaos abounds, keep calm with "In the moment..."
+                    <img src="sized keep calm.png" />
+
+                    <div class="margin_bottom_20"></div>
+
+                    <ul class="content_list_01">
+                        <li>Create a unique and personalized recovery and relapse prevention plan.</li>
+                        <li>Identify times and triggers and travel destinations that tempt you to use.  Get alerts reminding you of your successes at times of day where keeping calm is the most difficult.</li>
+                        <li>Record your sobriety succeses.</li>
+                        <li>Keep a record of meetings you attended as well as on going meetings in your area.</li>
+                        <li>Keep a daily log of your moods and temptations (you could chose to send this daily data to your sponsor and/ or therapist as well).</li>
+                        <li>Stay in touch with sponsors and supporters.</li>
+                        <li>Learn to be mindful in the moment instead of being impulsive.</li>
+                        <li>Learn new habits and identify new helps that will encourage you on your journey through sobriety.</li>
+                    </ul>
+                    <div class="margin_bottom_20"></div>
+
+                    <div class="cleaner"></div>
+            </div>
+
+
+            <div id="column_w300">
+
+                <div class="header_03">WHY and HOW</div>
+
+                <div class="column_w300_section_01">
+                    <div class="news_image_wrapper">
+                        <img src="images/templatemo_image_02.jpg" alt="image" />
+                    </div>
+
+                    <div class="news_content">
+                        <div class="news_date">Today...</div>
+                        <div class="header_04">
+                            <a href="http://www.cleveland.com/metro/index.ssf/2016/04/--_the_heroin_crisis_in_ohio.html">See how Cleveland became 'Addiction City.'</a>
                         </div>
-                        <img src="img/biz card.jpg" alt="Teresa M Johnson">
                     </div>
-                    <h3 class="profile-name">Teresa M Johnson<!--, MA, BCC--></h3>
-                    <p class="profile-description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>.
-                        Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-                    </p>
-                    <row class="span4 breakpg"><img src="img/sized sepia watches.jpg" />
 
+                    <div class="cleaner"></div>
+                </div>
 
-
-
-
-
-
-
-
-                    <!--<div class="WCCI">-->
-                    <!--<ul>--> <!--class="WCCI-icon">-->
-                    <!--<ul>-->
-                    <!--<li>--><a href="https://wecancodeit.org/"><img src="img/sepia  we_can_code_it.png" height="61" width="100" style="padding-bottom: 10px" /></a>
-                    <!--</ul>-->
-                    <!--</div>-->
-
-                    <div class="social">
-                        <ul class="social-icons">
-                            <li><a href="https://www.linkedin.com/in/teresamjohnson1203/"><img src="img/sepia linkedIcon.png" height="25" width="25" /></a></li>
-                            <li><a href="https://github.com/TMJohnson1203"><img src="img/sepia gradiation.jpg" height="25" width="25" /></a></li>
-                            <!--<li><a href="#"><i class="font-icon-social-facebook"></i></a></li>-->
-                        </ul>
+                <div class="column_w300_section_01 even_color">
+                    <div class="news_image_wrapper">
+                        <img src="images/templatemo_image_03.jpg" alt="image" />
                     </div>
-                </div>
-                <!-- End Profile -->
-            </div>
-            <!-- End People -->
-        </div>
-    </div>
-    <!-- End About Section -->
-    <!-- Our Work Section -->
 
-    <div id="work" class="page">
-        <div class="container">
-            <!-- Title Page -->
-            <div class="row">
-                <div class="span12">
-                    <div class="title-page">
-                        <h2 class="title">PORTFOLIO</h2>
-                        <h3 class="title-description">Each of the projects listed below have three sections.</h3>
-                        <p> "CHALLENGE" describes the goals of the project.</p>
-                        <p> "LESSONS LEARNED" highlights the techniques implemented in each project. </p>
-                        <p> "ONGOING CHALLENGES" identifies areas for further growth.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- End Title Page -->
-            <!-- Portfolio Projects -->
-            <div id="portfolio" class="row">
-                <div class="span3">
-                    <!-- Filter -->
-                    <nav id="options" class="work-nav">
-
-                        <ul id="filters" class="option-set" data-option-key="filter">
-
-                            <li class="type-work">PROJECTS</li>
-
-                            <li><a href="#filter" data-option-value="*" class="selected">All Projects</a></li>
-
-                            <li><a href="#filter" data-option-value= <!--".photography"--> <!--".codeFirst">-->  C#  </a></li>
-
-                            <li><a href="#filter" data-option-value= <!--".photography"--> <!--".codeFirst">--> HTML/CSS</a></li>
-
-                            <li><a href="#filter" data-option-value=<!--".photography"--> <!--".codeFirst">-->  MVC Code First App</a></li>
-
-                            <li><a href="#filter" data-option-value=<!--".video"-->  SQL/MVC Database First App</a></li>
-
-                        </ul>
-                    </nav>
-                    <!-- End Filter -->
-
-
-                </div>
-                <div class="span9">
-                    <div class="row">
-                        <section id="projects">
-                            <ul id="thumbs">
-
-                                <!--  FIRST ROW OF THREE Item Project and Filter Name -->
-                                <li class="item-thumbs span3 <!--design-->   C# ">
-                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="CHALLENGE" href="img/FortuneTellerCode.PNG" />
-                                    <span class="overlay-img"> <img src="img/sized sepia Insideofwatch.jpg" /></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                    </a>
-                                    <!-- Thumb Image and Description -->
-                                    <img src="img/FortuneTellerCode.PNG" />
-                                </li>
-                                <!--<li class="description">
-                                   "Create a console application that utilizes various types of user input to create a personalized 'FORTUNE.'" />
-                                </li>-->
-                                <!-- End Item Project -->
-                                <!-- Item Project and Filter Name -->
-                                <li class="item-thumbs span3 <!--design-->  C#">
-                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="LESSONS LEARNED" href="img/ConsoleFortuneTeller.PNG" />
-                                    <span class="overlay-img"><img src="img/sized sepia vintage-keys-vintage-clocks.jpg" /></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-
-                                    </a>
-                                    <!-- Thumb Image and Description -->
-                                    <img src="img/ConsoleFortuneTeller.PNG" height="189" width="270"
-                                         alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                                </li>
-                                <!-- End Item Project -->
-                                <!-- Item Project and Filter Name -->
-                                <li class="item-thumbs span3 photography">
-                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="ONGOING CHALLENGES" href="img/FortuneTellerMVCCreateView.PNG" />
-                                    <span class="overlay-img"><img src="img/sized sepia watches.jpg" /></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                    </a>
-                                    <!-- Thumb Image and Description -->
-                                    <img src="img/FortuneTellerMVCCreateView.PNG" height="189" width="270"
-                                         alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                                </li>
-                                <!-- End Item Project -->'
-
-
-                                <!-- SECOND ROW OF THREE Item Project and Filter Name -->
-
-                                <li class="item-thumbs span3 photography">
-                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="CHALLENGE" href="img/HTMLTuscanyVIlla.PNG" />
-                                    <span class="overlay-img"><img src="img/sized sepia watches.jpg" /></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                    </a>
-                                    <!-- Thumb Image and Description -->
-                                    <img src="img/HTMLTuscanyVIlla.PNG" height="189" width="270"
-                                         alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                                </li>
-                                <!-- End Item Project -->'
-
-
-                                <li class="item-thumbs span3 photography">
-                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="LESSONS LEARNED" href="img/TuscanyCSS.PNG" />
-                                    <span class="overlay-img"><img src="img/sized sepia Insideofwatch.jpg" /></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                    </a>
-                                    <!-- Thumb Image and Description -->
-                                    <img src="img/TuscanyCSS.PNG" height="189" width="270"
-                                         alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                                </li>
-
-                                <!-- End Item Project -->'
-
-
-                                <!-- Item Project and Filter Name -->
-                                <li class="item-thumbs span3 photography">
-                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="ONGOING CHALLENGES" href="img/TuscanyVillaHTML.PNG" />
-                                    <span class="overlay-img"><img src="img/sized sepia vintage-keys-vintage-clocks.jpg" /></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                    </a>
-                                    <!-- Thumb Image and Description -->
-                                    <img src="img/TuscanyVillaHTML.PNG" height="189" width="270"
-                                         alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                                </li>
-                                <!-- End Item Project -->
-                                <!-- THIRD ROW OF THREE Item Project and Filter Name -->
-                                <!-- Item Project and Filter Name -->
-                                <li class="item-thumbs span3 photography">
-                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="CHALLENGE" href="img/CodeForReviewMVC.PNG" />
-                                    <span class="overlay-img"><img src="img/sized sepia vintage-keys-vintage-clocks.jpg" /></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                    </a>
-                                    <!-- Thumb Image and Description -->
-                                    <img src="img/CodeForReviewMVC.PNG" height="189" width="270"
-                                         alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                                </li>
-                                <!-- End Item Project -->
-                                <!-- Item Project and Filter Name -->
-                                <li class="item-thumbs span3 <!--design-->   C# ">
-                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="LESSONS LEARNED" href="img/ReviewMVCReviewPage.PNG" />
-                                    <span class="overlay-img"><img src="img/sized sepia watches.jpg" /></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                    </a>
-                                    <!-- Thumb Image and Description -->
-                                    <img src="img/ReviewMVCReviewPage.PNG" height="189" width="270"
-                                         alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                                </li>
-                                <!-- End Item Project -->
-                                <li class="item-thumbs span3 design">
-                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="ONGOING CHALLENGES" href="img/ReviewMVCSiteHomeImage.PNG" />
-                                    <span class="overlay-img"><img src="img/sized sepia Insideofwatch.jpg" /></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                    </a>
-                                    <!-- Thumb Image and Description -->
-                                    <img src="img/ReviewMVCSiteHomeImage.PNG" height="189" width="270"
-                                         alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                                </li>
-                                <!-- End Item Project -->
-                                <!-- start FOURTH row of three -->
-                                <!-- Item Project and Filter Name -->
-                                <li class="item-thumbs span3 design">
-                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="CHALLENGE" href="img/GoVintageDataBase.PNG" />
-                                    <span class="overlay-img"><img src="img/sized sepia Insideofwatch.jpg" /></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                    </a>
-                                    <!-- Thumb Image and Description -->
-                                    <img src="img/GoVintageDataBase.PNG" height="189" width="270"
-                                         alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                                </li>
-                                <!-- End Item Project -->
-                                <!-- Item Project and Filter Name -->
-                                <li class="item-thumbs span3 design">
-                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="LESSONS LEARNED" href="img/GoVintageHomePage.PNG" />
-                                    <span class="overlay-img"><img src="img/sized sepia vintage-keys-vintage-clocks.jpg" /></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                    </a>
-                                    <!-- Thumb Image and Description -->
-                                    <img src="img/GoVintageHomePage.PNG" height="189" width="270"
-                                         alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                                </li>
-                                <!-- End Item Project -->
-                                <!-- Item Project and Filter Name -->
-                                <li class="item-thumbs span3 photography">
-                                    <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                    <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="ONGOING CHALLENGES" href="img/dressesIndexGoVintage.PNG" />
-                                    <span class="overlay-img"><img src="img/sized sepia watches.jpg" /></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                    </a>
-                                    <!-- Thumb Image and Description -->
-                                    <img src="img/dressesIndexGoVintage.PNG" height="189" width="270"
-                                         alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                                </li>
-                                <!-- End Item Project -->
-
-
-                            </ul>
-                        </section>
-                    </div>
-                </div>
-            </div>
-            <!-- End Portfolio Projects -->
-        </div>
-    </div>
-    <!-- End Our Work Section -->
-    <!-- Contact Section -->
-    <div id="contactrow" class="page">
-        <div class="container">
-            <!-- Title Page -->
-            <div class="row">
-                <div class="span12">
-                    <div class="title-page">
-                        <h2 class="title">Get in Touch</h2>
-                        <h3 class="title-description">We’re currently accepting new client projects. We look forward to serving you.</h3>
-                    </div>
-                </div>
-            </div>
-            <!-- End Title Page -->
-            <!-- Contact Form -->
-            <div id="contactform" class="row">
-                <div class="span9">
-
-                    <form id="contact-form" class="contact-form" action="#">
-                        <p class="contact-name">
-                            <input id="contact_name" type="text" placeholder="Full Name" value="" name="name" />
-                        </p>
-                        <p class="contact-email">
-                            <input id="contact_email" type="text" placeholder="Email Address" value="" name="email" />
-                        </p>
-                        <p class="contact-message">
-                            <textarea id="contact_message" placeholder="Your Message" name="message" rows="15" cols="40"></textarea>
-                        </p>
-                        <p class="contact-submit">
-                            <a id="contact-submit" class="submit" href="#">Send Your Email</a>
-                        </p>
-
-                        <div id="response">
-
+                    <div class="news_content">
+                        <div class="news_date">In the Moment...</div>
+                        <div class="header_04">
+                            <a href="https://sobercollege.com/addiction-blog/mindfulness-recovery-addiction">Mindfulness Matters in Recovery</a>
                         </div>
-                    </form>
+                    </div>
 
+                    <div class="cleaner"></div>
                 </div>
+                <div class="column_w300_section_01">
+                    <div class="news_image_wrapper">
+                        <img src="images/templatemo_image_04.jpg" alt="image" />
+                    </div>
 
-                <div class="span3">
-                    <div class="contact-details">
-                        <h3>Contact Details</h3>
-                        <ul>
-                            <li><a href="#">TMJohnson1203@gmail.com</a></li>
-                            <li>(864) 517-7371</li>
-                            <li>
-                                Located in the Akron / Cleveland Area
-                            </li>
-                        </ul>
+                    <div class="news_content">
+                        <div class="news_date">Everyday...</div>
+                        <div class="header_04">
+                            <a href="https://www.thefix.com/content/dbt-treatment-addiction">
+                                New Habits, New Life...
+                            </a>
+                        </div>
                     </div>
                 </div>
+
+                <div class="cleaner"></div>
             </div>
-            <!-- End Contact Form -->
-        </div>
+
+                <div class="cleaner"></div>
+            </div>
+
+            <div class="cleaner"></div>
+        </div> <!-- end of content wrapper -->
+    </div> <!-- end of content wrapper -->
+
+    <div id="templatemo_footer_wrapper">
+
+        <div id="templatemo_footer">
+
+            <div class="section_w180">
+                <div class="header_05">Services</div>
+                <div class="section_w180_content">
+                    <ul class="footer_menu_list">
+                        <li><a href="#">Lorem ipsum dolor</a></li>
+                        <li><a href="#">Cum sociis</a></li>
+                        <li><a href="#">Donec quam</a></li>
+                        <li><a href="#">Nulla consequat</a></li>
+                        <li><a href="#">In enim justo</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section_w180">
+                <div class="header_05">About</div>
+                <div class="section_w180_content">
+                    <ul class="footer_menu_list">
+                        <li><a href="#">Nullam quis</a></li>
+                        <li><a href="#">Sed consequat</a></li>
+                        <li><a href="#">Cras dapibus</a></li>
+                        <li><a href="#">Lorem ipsum dolor</a></li>
+                        <li><a href="#">Cum sociis</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section_w180">
+                <div class="header_05">Cool links</div>
+                <div class="section_w180_content">
+                    <ul class="footer_menu_list">
+                        <li><a href="#">Aenean vulputate</a></li>
+                        <li><a href="#">Etiam ultricies</a></li>
+                        <li><a href="#">Nullam quis</a></li>
+                        <li><a href="#">Sed consequat</a></li>
+                        <li><a href="#">Cras dapibus</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section_w180">
+                <div class="header_05">Contact</div>
+
+                <div class="section_w180_content">
+
+                    <ul class="footer_menu_list">
+                        <li><a href="#">Donec quam</a></li>
+                        <li><a href="#">Nulla consequat</a></li>
+                        <li><a href="#">In enim justo</a></li>
+                        <li><a href="#">Aenean vulputate</a></li>
+                        <li><a href="#">Etiam ultricies</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section_w180">
+                <div class="header_05">Partners</div>
+                <div class="section_w180_content">
+                    <ul class="footer_menu_list">
+                        <li><a href="http://www.templatemo.com" target="_parent">CSS Templates</a></li>
+                        <li><a href="http://www.flashmo.com" target="_parent">Flash Websites</a></li>
+                        <li><a href="http://www.templatemo.com/page/2" target="_parent">Website Templates</a></li>
+                        <li><a href="http://www.webdesignmo.com" target="_parent">Web Design Tips</a></li>
+                        <li><a href="http://www.photovaco.com" target="_blank">Free Stock Photos</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="margin_bottom_20"></div>
+            <h4>Original Capstone Pitch-deck. Created and Copyrighted by Teresa M Johnson, November 2017.</h4>
+
+            <div class="cleaner"></div>
+        </div> <!-- end of footer -->
+    </div> <!-- end of footer -->
+    <!--  Free CSS Templates by TemplateMo.com  -->
+    <div align=center>This template  downloaded form <a href='http://all-free-download.com/free-website-templates/'>free website templates</a></div>
     </div>
-    <!-- End Contact Section -->
-    <!-- Twitter Feed -->
-    <!--<div id="twitter-feed" class="page-alternate">
-        <div class="container">
-            <div class="row">
-                <div class="span12">
-                    <div class="follow">
-                        <a href="https://twitter.com/Bluxart" title="Follow Me on Twitter" target="_blank"><i class="font-icon-social-twitter"></i></a>
-                    </div>
-
-                    <div id="ticker" class="query">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>-->
-    <!-- End Twitter Feed -->
-    <!-- Socialize -->
-    <!--<div id="social-area" class="page">
-        <div class="container">
-            <div class="row">
-                <div class="span12">
-                    <nav id="social">
-                        <ul>
-                            <li><a href="https://twitter.com/Bluxart" title="Follow Me on Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
-                            <li><a href="http://dribbble.com/Bluxart" title="Follow Me on Dribbble" target="_blank"><span class="font-icon-social-dribbble"></span></a></li>
-                            <li><a href="http://forrst.com/people/Bluxart" title="Follow Me on Forrst" target="_blank"><span class="font-icon-social-forrst"></span></a></li>
-                            <li><a href="http://www.behance.net/alessioatzeni" title="Follow Me on Behance" target="_blank"><span class="font-icon-social-behance"></span></a></li>
-                            <li><a href="https://www.facebook.com/Bluxart" title="Follow Me on Facebook" target="_blank"><span class="font-icon-social-facebook"></span></a></li>
-                            <li><a href="https://plus.google.com/105500420878314068694" title="Follow Me on Google Plus" target="_blank"><span class="font-icon-social-google-plus"></span></a></li>
-                            <li><a href="http://www.linkedin.com/in/alessioatzeni" title="Follow Me on LinkedIn" target="_blank"><span class="font-icon-social-linkedin"></span></a></li>
-                            <li><a href="http://themeforest.net/user/Bluxart" title="Follow Me on ThemeForest" target="_blank"><span class="font-icon-social-envato"></span></a></li>
-                            <li><a href="http://zerply.com/Bluxart/public" title="Follow Me on Zerply" target="_blank"><span class="font-icon-social-zerply"></span></a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div>-->
-    <!-- End Socialize -->
-    <!-- Footer -->
-    <footer>
-        <p class="credits">&copy;2013 Brushed. <a href="http:// themes.alessioatzeni.com/html/brushed/" title="Brushed | Responsive One Page Template">Brushed Template</a> by <a href="http://www.alessioatzeni.com/" title="Alessio Atzeni | Web Designer &amp; Front-end Developer">Alessio Atzeni</a></p>
-        <p class="TMJ">&copy;2017 Teresa M Johnson</p>
-    </footer>
-    <!-- End Footer -->
-    <!-- Back To Top -->
-    <!--<a id="back-to-top" href="#">
-        <i class="font-icon-arrow-simple-up"></i>
-    </a>-->
-    <!-- End Back to Top -->
-    <!-- Js -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
-    <script src="js/bootstrap.min.js"></script><!-- Bootstrap -->
-    <script src="js/supersized.3.2.7.min.js"></script><!-- Slider -->
-    <script src="js/waypoints.js"></script> <!-- WayPoints -->
-    <script src="js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
-    <script src="js/jquery.isotope.js"></script> <!-- Isotope Filter -->
-    <script src="js/jquery.fancybox.pack.js"></script><!-- Fancybox -->
-    <script src="js/jquery.fancybox-media.js"></script> <!-- Fancybox for Media -->
-    <script src="js/jquery.tweet.js"></script> <!-- Tweet -->
-    <script src="js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
-    <script src="js/main.js"></script><!-- Default JS -->
-    <!-- End Js -->
-
+    </div>
 </body>
 </html>
-
-<div class="fancybox-title fancybox-title-inside-wrap"><h4>CHALLENGE</h4><p>Create a console application that utilizes various types of user input to create a personalized "FORTUNE."</p></div>
